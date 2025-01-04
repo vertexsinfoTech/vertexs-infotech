@@ -1,0 +1,44 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker 
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:4f5a2fbf07240aba9cdb3da86d39aba9:469d8a05b7069f16530b89dc5ad9c325:a9444b158797e776a9851f7ea3b234f8$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(icons_sheet.png);}
+
+.App_store_icon {width:512px; height:168px; background-position: -1px -355px}
+.Game_icon {width:187px; height:186px; background-position: -606px -618px}
+.No_Client_image {width:294px; height:294px; background-position: -637px -1px}
+.Play_store_icon {width:511px; height:168px; background-position: -1px -525px}
+.Web_icon {width:511px; height:168px; background-position: -1px -695px}
+.androidicon {width:186px; height:186px; background-position: -606px -806px}
+.appleicon {width:186px; height:186px; background-position: -55px -865px}
+.button_icon {width:38px; height:55px; background-position: -1px -994px}
+.close-modal {width:20px; height:20px; background-position: -608px -355px}
+.color_next_icon {width:155px; height:319px; background-position: -637px -297px}
+.color_prev_icon {width:155px; height:319px; background-position: -794px -297px}
+.email {width:90px; height:90px; background-position: -514px -541px}
+.globalicon {width:186px; height:186px; background-position: -243px -865px}
+.ic_android {width:156px; height:156px; background-position: -795px -618px}
+.ic_apple {width:156px; height:156px; background-position: -795px -776px}
+.ic_game {width:156px; height:156px; background-position: -794px -934px}
+.ic_pallete {width:156px; height:156px; background-position: -431px -903px}
+.ic_testing {width:156px; height:156px; background-position: -237px -1053px}
+.ic_web {width:156px; height:156px; background-position: -395px -1061px}
+.location {width:115px; height:90px; background-position: -522px -633px}
+.logo-black {width:634px; height:175px; background-position: -1px -1px}
+.logo-text {width:634px; height:175px; background-position: -1px -178px}
+.phone {width:90px; height:90px; background-position: -514px -725px}
+.skycapicon {width:180px; height:180px; background-position: -55px -1053px}
+.skycapicon-white {width:180px; height:180px; background-position: -589px -994px}
+.skype {width:90px; height:91px; background-position: -515px -448px}
+.toggle {width:87px; height:84px; background-position: -514px -817px}
+.wh-next {width:52px; height:106px; background-position: -1px -1092px}
+.wh-prev {width:52px; height:106px; background-position: -1px -865px}
+.whatsapp {width:91px; height:91px; background-position: -515px -355px}

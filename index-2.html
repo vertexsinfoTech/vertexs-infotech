@@ -3,10 +3,10 @@
 <html lang="en">
 
 
-<!-- Mirrored from www.skycap.co.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jan 2025 08:12:58 GMT -->
+<!-- Mirrored from www.skycap.co.in/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jan 2025 08:13:20 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-  <title>Web & Mobile App Development Company | Top App Agency | Vertexsinfotech</title>
+  <title>Web & Mobile App Development Company | Top App Agency | Skycap</title>
   <meta charset="utf-8">
   <meta name="keywords" content="iOS Development, Android Development, Web Development, Chandigarh, Mohali, Facebook Applications, Game Development">
   <meta name="description" content="At Skycap, we offer high quality turnkey software solutions for iOS, Android and Web that matches global standards in quality while retaining a personal touch.">
@@ -70,9 +70,8 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="index.html">
-         <img src="assets/skycap-whitelogo.png" class="logo-1" width="150" height="41" alt="SkycapLogoWhite">
-<img src="assets/skycap-darklogo.svg" class="logo-2" width="150" height="41" alt="SkycapLogoBlack">
-
+          <img data-src="https://www.skycap.co.in/assets/skycap-darklogo.svg" class="logo-1 lazyload" width="150" height="41" alt="SkycapLogoWhite">
+          <img data-src="https://www.skycap.co.in/assets/skycap-darklogo.svg" class="logo-2 lazyload" width="150" height="41" alt="SkycapLogoBlack">
           Skycap logo
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -99,108 +98,129 @@
               <a class="nav-link nav-link--right hover-cta scroll" href="#contact-us"
                 data-hovermenu="CONTACT US">Contact Us</a>
             </li>
-            <!-- <li class="nav-item " itemprop="name">
+            <li class="nav-item " itemprop="name">
               <a class="nav-link nav-link--right hover-cta scroll "
                 href="career.html" data-hovermenu="CAREER">Career</a>
-            </li> -->
-            <!-- <li class="nav-item " itemprop="name">
+            </li>
+            <li class="nav-item " itemprop="name">
               <a class="nav-link nav-link--right hover-cta scroll "
                 href="portfolio.html" data-hovermenu="PORTFOLIO">PORTFOLIO</a>
-            </li> -->
+            </li>
           </ul>
         </div>
-        <!-- Your HTML content -->
+        <div class="dropdown">
+          <button role="button" type="button" class="btn custom-btn dropdown-toggle" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Request a Quote
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="header-modal card nav-contactus">
+              <div class="custom-modal-wrap">
+                <div class="custom-modal-head">
+                  <a href="index.html">
+                    <img data-src="https://www.skycap.co.in/assets/images/logo_for_popup.png" class="h-auto lazyload" width="415" height="109" alt="SkycapPopup">
+                  </a>
+                  <span class="wh-text">
+                    Hey, we are here to help you. Ask us anything
+                  </span>
+                </div>
+                <div class="error-msg-wrap">
+                  <div class="alert alert-success alert-dismissible fade show d-none send-success_quote"
+                    id="contact_success_quote">
+                  </div>
+                  <div class="alert alert-danger alert-dismissible fade show d-none send-failure_quote"
+                    id="contact_failure_quote">
+                  </div>
+                </div>
+                <div id="scrollbarRun" data-simplebar class="form-wrap scroll-bar-wrap-head">
+                  <div class="contact-wrap scroll-box-head">
+                    <form method="post" enctype="multipart/form-data" class="custom-form card contact-form"
+                      id="quoteform">
+                      <input type="hidden" name="recaptcha_response" id="recaptchaResponse_quote">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="input-block">
+                            <label class="full-name-label" for="">Full Name</label>
+                            <input name="name" class="form-control" type="text" autocomplete="off">
+                            <input name="firstname" type="hidden">
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="input-block">
+                            <label for="">Email</label>
+                            <input name="email" class="form-control" type="text" autocomplete="off">
+                          </div>
+                        </div>
+                        <div class="col-sm-6 country ">
+                          <div class="input-block select_country select_country_form_header">
+                            <select class="country-codes form-control select" name="country" id="country"
+                              data-pos="top">
+                              <option value=""> Country</option>
+                            </select>
+                          </div>
+                          <div class="input-block contry-code-field contry-code-form_header">
+                            <input name="c_code" id="c_code_top" class="form-control" type="hidden">
+                            <input name="code" id="code_top" class="form-control" type="tel" disabled="disabled">
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="input-block">
+                            <label class="label-phone-mask" for="">Phone Number</label>
+                            <input name="phone" id="ph_top" class="form-control phone-mask" type="tel"
+                              autocomplete="off" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;"
+                              data-mask="" im-insert="true">
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="input-block textarea">
+                            <label for="">Project Description</label>
+                            <textarea name="message" rows="1" type="text" class="form-control"
+                              autocomplete="off"></textarea>
+                          </div>
+                        </div>
+                          <div class="col-sm-4">
+                              <div class="input-blockx"> 
+                                  <div class="d-flex">
+                                      <img id="captcha_code_img_quote" class="h-auto" width="70" height="30" src="backend/api/captcha/generate/quote.jpg" />
+                                      <span class="p-2 cursor-pointer" role="button" onclick="refreshCaptcha('captcha_code_img_quote', 'backend/api/captcha/generate/quote.jpg')"><i class="fa fa-refresh" aria-hidden="true"></i></span>
+                                  </div>
+                              </div>
+                          </div>
+                        <div class="col-sm-8">
+                          <div class="input-block">
+                            <label for="">Captcha Code</label>
+                            <input name="captcha_code_quote" type="text" class="form-control" autocomplete="off">
+                          </div>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                          <div class="choose-button-wrap">
+                            <span class="input-file-container ">
+                              <input class="input-file" name="attach" id="my-file_quote" type="file">
+                              <label tabindex="0" for="my-file_quote" class="input-file-trigger">Choose
+                                File
+                                <span class="spinner-border spinner-border-sm d-none" role="status"
+                                  aria-hidden="true"></span>
+                                <span class="sr-only">Loading...</span>
+                              </label>
 
-<!-- Dropdown button -->
-<div class="dropdown">
-   <button role="button" type="button" class="btn custom-btn dropdown-toggle" id="dropdownMenuButton" 
-     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-     Request a Quote
-   </button>
- 
-   <!-- Dropdown menu that contains the form -->
-   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-     <div class="header-modal card nav-contactus">
-       <div class="custom-modal-wrap">
-         <div class="custom-modal-head">
-           <a href="index.html">
-        
-             <img data-src="assets/skycap-darklogo.svg" class="h-auto lazyload" width="415" height="109" alt="SkycapPopup">
-           </a>
-           <span class="wh-text">
-             Hey, we are here to help you. Ask us anything
-           </span>
-         </div>
- 
-        <!-- Form -->
-<div id="scrollbarRun" data-simplebar class="form-wrap scroll-bar-wrap-head">
-   <div class="contact-wrap scroll-box-head">
-     <form method="POST" action="https://script.google.com/macros/s/AKfycbzVwelJ9YWIZU352o7vV8wVegvneX-P8r0u3XSSbbDlMj-nvMLK-yK_qVTop9dvx4Cu/exec" enctype="multipart/form-data" class="custom-form card contact-form" id="quoteform">
-       <!-- Form fields go here -->
-       <div class="row">
-         <div class="col-sm-6">
-           <div class="input-block">
-             <label class="full-name-label" for="">Full Name</label>
-             <input name="name" class="form-control" type="text" autocomplete="off">
-           </div>
-         </div>
-         <div class="col-sm-6">
-           <div class="input-block">
-             <label for="">Email</label>
-             <input name="email" class="form-control" type="text" autocomplete="off">
-           </div>
-         </div>
-         <div class="col-sm-12">
-           <div class="input-block">
-             <label for="">Project Description</label>
-             <textarea name="message" rows="1" type="text" class="form-control" autocomplete="off"></textarea>
-           </div>
-         </div>
-         <div class="col-sm-12 text-center">
-           <div class="choose-button-wrap">
-             <span class="input-file-container">
-               <input class="input-file" name="attach" id="my-file_quote" type="file">
-               <label tabindex="0" for="my-file_quote" class="input-file-trigger">Choose File</label>
-             </span>
-             <button type="submit" class="btn btn-warning custom-btn">SEND</button>
-           </div>
-           <p id="contact-file-message_quote"></p>
-         </div>
-       </div>
-     </form>
-   </div>
- </div>
- 
- <!-- Include jQuery and Bootstrap JS -->
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
- 
- <!-- Custom Script for Manual Dropdown Toggle and Form Submission -->
- <script>
-   $(document).ready(function () {
-     // Dropdown toggle (manually)
-     $('#dropdownMenuButton').click(function () {
-       console.log("Dropdown button clicked"); // Check if this is printing in console
-       $('.dropdown-menu').toggle(); // Toggle the dropdown menu
-     });
- 
-     // Close dropdown after form submission
-     $('#quoteform').on('submit', function (e) {
-       // Remove e.preventDefault to allow form submission
-       console.log("Form submitted"); // Check if this prints when form is submitted
- 
-       // Simulate form submission by allowing the form to submit normally
-       setTimeout(function () {
-         $('.dropdown-menu').hide(); // Close the dropdown after submission
-         alert("Form data submitted successfully!");
-         // Actually submit the form
-         e.target.submit(); // This will submit the form to the Google Apps Script endpoint
-       }, 500); // Delay to simulate form submission process
-     });
-   });
- </script>
- 
- 
+                            </span>
+                            <button type="submit" class="btn btn-warning custom-btn">SEND
+                            </button>
+                          </div>
+                          <p id="contact-file-message_quote"></p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="cover-bar-head"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+    </div>
   </header><div id="homepage">
 <section id="home" class="sections hero-section home__page__wrap">
    <div class="heroes-wrapper">
@@ -212,9 +232,10 @@
                   <p class="d-flex align-items-center m-0"><span id="animated_text_new" class="header_typo_txt"> </span>  <span id="animated_text_horizons" class="main-heading cta_color"></span></p>
                </div>
               <div class="animate__animated animate__fadeInDown wow" data-wow-delay="2s">
-                 <h2 class="heading-desc wh-text">Creativity, Precision, and Commitment fuel our passion to deliver unparalleled solutions, driving growth and success for our clients.
+                 <h2 class="heading-desc wh-text">Minimalism, Simplicity and Efficiency are our core values and they drive
+                  us to achieve unmatched productivity, offering the most value to our clients
                  </h2>
-                 <!-- <div class="view-portfolio-wrap">
+                 <div class="view-portfolio-wrap">
                      <div class="button-animation-wrap wow-btngrad">
                         <a href="portfolio.html" class="btn btn-animation">
                            <span class="btn-text">
@@ -223,7 +244,7 @@
                         </a>
                      </div>
                      <!-- <a href="#" class="wow-btngrad d-inline-block p-4">asdasdas</a> -->
-                 </div> -->
+                 </div>
               </div>
             </div>
          </div>
@@ -310,7 +331,7 @@
             <div class="head-wrap text-center" data-aos="fade-up">
                <h2 class="d-black-color secondary-heading text-capitalize">What we do</h2>
                <p class="sub-heading l-black-color">
-                  We transform your ideas into reality by leveraging cutting-edge technology and exceptional expertise to deliver unparalleled solutions.
+                  We Help Codify your ideas into reality with a Top Notch Technology and Skills
                </p>
             </div>
             <!-- div card layout started -->
@@ -325,7 +346,8 @@
                      <h3 class="sub-ternary-heading d-black-color">UI/UX</h3>
                   </div>
                   <div class="text-wrap">
-                     <p>Our seasoned experts craft seamless designs and flawless products, always delivered on time. This commitment to excellence is why our clients trust us repeatedly.
+                     <p>Our highly experienced team creates flawless products and delivers them within the agreed
+                        deadlines, this is why our clients keep coming back for more.
                      </p>
                   </div>
                </div>
@@ -339,8 +361,9 @@
                      <h3 class="sub-ternary-heading d-black-color">Mobile Development</h3>
                   </div>
                   <div class="text-wrap">
-                     <p>We excel in delivering intricate, functional applications in domains like Cloud, Augmented Reality, IoT, Productivity, and System apps, ensuring impactful and innovative solutions.
-
+                     <p>Many of our greatest successes have come from the capacity to deliver complex,
+                        tightly-knit and functional applications. Be it Cloud, Augmented Reality, IoT,
+                        Productivity or System apps.
                      </p>
                   </div>
                </div>
@@ -354,7 +377,8 @@
                      <h3 class="sub-ternary-heading d-black-color">Web Development</h3>
                   </div>
                   <div class="text-wrap">
-                     <p>With a promise of on-time delivery, our team creates responsive, visually stunning, and scalable web solutions tailored to meet diverse business needs.
+                     <p>Our experienced team promises on-time delivery of visually-pleasing, responsive design
+                        combined with a totally accessible, highly scalable and pragmatic web-solutions.
                      </p>
                   </div>
                </div>
@@ -362,14 +386,14 @@
                   <div class="img-text-list">
                      <span class="img-wrap">
                         <!-- <i class="ic_game sprite"></i> -->
-                        <img src="assets/images/icons/content-marketing.png" alt="">
-                        <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 50"><defs><style>.cls-1{fill:none;stroke:#3c7eba;stroke-miterlimit:10;stroke-width:1.8px;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-game{fill:#3c7eba;}</style></defs><title>game</title><path class="cls-1" d="M12.53,8.74c.28-.93.52-1.11,1.44-1.17l4.44-.26A1.18,1.18,0,0,1,19.69,8a.58.58,0,0,0,.5.24,4.86,4.86,0,0,1,4.22,1.23,5,5,0,0,0,3.45,1c1.87-.1,3.75,0,5.62,0a2.31,2.31,0,0,0,1-.27c.85-.49,1.69-1,2.5-1.56a2.39,2.39,0,0,1,1.85-.43,3.64,3.64,0,0,0,1,.05c.18,0,.35-.2.53-.31.35-.21.71-.6,1.06-.59,1.66,0,3.31.15,5,.27.66,0,1,.49,1.08,1.14.76,0,1.5.12,2.24.15A1.31,1.31,0,0,1,51,9.77c1.06,2.62,2.14,5.23,3.17,7.86a3,3,0,0,1,0,1.18c0,.06-.06.12-.09.17a7.27,7.27,0,0,0-1.16,2.31,6.7,6.7,0,0,0,.74,2.4c1.39,4.08,2.79,8.15,4.17,12.23.87,2.55.19,4.88-1.8,6a5.42,5.42,0,0,1-5.71-.16,10.84,10.84,0,0,1-2.21-1.72c-2.73-2.73-5.41-5.49-8.12-8.24a3.69,3.69,0,0,0-.84-.61q-2.49-1.34-5-2.63a2.23,2.23,0,0,0-1-.25q-3.06,0-6.14,0a2.81,2.81,0,0,0-1.05.27c-.67.31-1.29.72-2,1A18.36,18.36,0,0,0,17.5,34.4c-1.81,2-3.75,3.88-5.66,5.79a7.26,7.26,0,0,1-5.16,2.47A4.59,4.59,0,0,1,2,36.79c.67-2.5,1.6-4.93,2.43-7.37S6.15,24.35,7,21.83a1.22,1.22,0,0,0-.11-1.16c-.36-.57-.66-1.18-1-1.76a1.4,1.4,0,0,1-.09-1.36Q7.41,13.71,9,9.87a1.37,1.37,0,0,1,1.38-1C11.05,8.86,11.77,8.79,12.53,8.74Z"/><path class="cls-game" d="M17.58,12.52A6.57,6.57,0,1,1,11,19,6.58,6.58,0,0,1,17.58,12.52ZM19,15a4.3,4.3,0,0,0-3,0,2,2,0,0,1-2.52,2.56,3.71,3.71,0,0,0,0,3A2,2,0,0,1,16,23.09a3.41,3.41,0,0,0,3,0c-.28-1.84.82-2.81,2.53-2.5a3.6,3.6,0,0,0,0-3C20.12,17.91,18.73,17.13,19,15Z"/><path class="cls-game" d="M46.49,17.14a2,2,0,1,1-.05,3.9,2,2,0,0,1,.05-3.9Z"/><path class="cls-game" d="M40.46,19.08a2,2,0,1,1-2-1.94A2,2,0,0,1,40.46,19.08Z"/><path class="cls-game" d="M44.42,23.06a1.94,1.94,0,0,1-3.88,0,2,2,0,0,1,1.93-2A2,2,0,0,1,44.42,23.06Z"/><path class="cls-game" d="M44.42,15.11a1.94,1.94,0,1,1-2-1.93A1.92,1.92,0,0,1,44.42,15.11Z"/><path class="cls-game" d="M27.46,24a6.91,6.91,0,0,1-.91,0,1.13,1.13,0,0,1-1-1.19,1.09,1.09,0,0,1,1.09-1c.53,0,1.05,0,1.57,0a1.08,1.08,0,0,1,1.11,1,1.14,1.14,0,0,1-1,1.16,8,8,0,0,1-.85,0Z"/><path class="cls-game" d="M32.53,21.83c.31,0,.62,0,.92,0a1.05,1.05,0,0,1,1,1,1,1,0,0,1-.81,1.1,8.51,8.51,0,0,1-2.08,0,1,1,0,0,1-.87-1.13,1.08,1.08,0,0,1,1.07-1c.26,0,.52,0,.78,0Z"/></svg> -->
+                        <!-- <img src="assets/images/icons/game.svg" alt=""> -->
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 50"><defs><style>.cls-1{fill:none;stroke:#3c7eba;stroke-miterlimit:10;stroke-width:1.8px;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-game{fill:#3c7eba;}</style></defs><title>game</title><path class="cls-1" d="M12.53,8.74c.28-.93.52-1.11,1.44-1.17l4.44-.26A1.18,1.18,0,0,1,19.69,8a.58.58,0,0,0,.5.24,4.86,4.86,0,0,1,4.22,1.23,5,5,0,0,0,3.45,1c1.87-.1,3.75,0,5.62,0a2.31,2.31,0,0,0,1-.27c.85-.49,1.69-1,2.5-1.56a2.39,2.39,0,0,1,1.85-.43,3.64,3.64,0,0,0,1,.05c.18,0,.35-.2.53-.31.35-.21.71-.6,1.06-.59,1.66,0,3.31.15,5,.27.66,0,1,.49,1.08,1.14.76,0,1.5.12,2.24.15A1.31,1.31,0,0,1,51,9.77c1.06,2.62,2.14,5.23,3.17,7.86a3,3,0,0,1,0,1.18c0,.06-.06.12-.09.17a7.27,7.27,0,0,0-1.16,2.31,6.7,6.7,0,0,0,.74,2.4c1.39,4.08,2.79,8.15,4.17,12.23.87,2.55.19,4.88-1.8,6a5.42,5.42,0,0,1-5.71-.16,10.84,10.84,0,0,1-2.21-1.72c-2.73-2.73-5.41-5.49-8.12-8.24a3.69,3.69,0,0,0-.84-.61q-2.49-1.34-5-2.63a2.23,2.23,0,0,0-1-.25q-3.06,0-6.14,0a2.81,2.81,0,0,0-1.05.27c-.67.31-1.29.72-2,1A18.36,18.36,0,0,0,17.5,34.4c-1.81,2-3.75,3.88-5.66,5.79a7.26,7.26,0,0,1-5.16,2.47A4.59,4.59,0,0,1,2,36.79c.67-2.5,1.6-4.93,2.43-7.37S6.15,24.35,7,21.83a1.22,1.22,0,0,0-.11-1.16c-.36-.57-.66-1.18-1-1.76a1.4,1.4,0,0,1-.09-1.36Q7.41,13.71,9,9.87a1.37,1.37,0,0,1,1.38-1C11.05,8.86,11.77,8.79,12.53,8.74Z"/><path class="cls-game" d="M17.58,12.52A6.57,6.57,0,1,1,11,19,6.58,6.58,0,0,1,17.58,12.52ZM19,15a4.3,4.3,0,0,0-3,0,2,2,0,0,1-2.52,2.56,3.71,3.71,0,0,0,0,3A2,2,0,0,1,16,23.09a3.41,3.41,0,0,0,3,0c-.28-1.84.82-2.81,2.53-2.5a3.6,3.6,0,0,0,0-3C20.12,17.91,18.73,17.13,19,15Z"/><path class="cls-game" d="M46.49,17.14a2,2,0,1,1-.05,3.9,2,2,0,0,1,.05-3.9Z"/><path class="cls-game" d="M40.46,19.08a2,2,0,1,1-2-1.94A2,2,0,0,1,40.46,19.08Z"/><path class="cls-game" d="M44.42,23.06a1.94,1.94,0,0,1-3.88,0,2,2,0,0,1,1.93-2A2,2,0,0,1,44.42,23.06Z"/><path class="cls-game" d="M44.42,15.11a1.94,1.94,0,1,1-2-1.93A1.92,1.92,0,0,1,44.42,15.11Z"/><path class="cls-game" d="M27.46,24a6.91,6.91,0,0,1-.91,0,1.13,1.13,0,0,1-1-1.19,1.09,1.09,0,0,1,1.09-1c.53,0,1.05,0,1.57,0a1.08,1.08,0,0,1,1.11,1,1.14,1.14,0,0,1-1,1.16,8,8,0,0,1-.85,0Z"/><path class="cls-game" d="M32.53,21.83c.31,0,.62,0,.92,0a1.05,1.05,0,0,1,1,1,1,1,0,0,1-.81,1.1,8.51,8.51,0,0,1-2.08,0,1,1,0,0,1-.87-1.13,1.08,1.08,0,0,1,1.07-1c.26,0,.52,0,.78,0Z"/></svg>
                      </span>
-                     <h3 class="sub-ternary-heading d-black-color">Digital Marketing</h3>
+                     <h3 class="sub-ternary-heading d-black-color">Game Development</h3>
                   </div>
                   <div class="text-wrap">
-                     <p>Our digital marketing services are designed to enhance your online presence. From SEO and social media campaigns to content strategy and paid advertising, we help businesses reach their target audience and achieve measurable growth.
-
+                     <p> Our prowess on the two most popular mobile operating systems enables us to develop high
+                        quality games that are compatible across a wide range of portable devices.
                      </p>
                   </div>
                </div>
@@ -377,14 +401,15 @@
                   <div class="img-text-list">
                      <span class="img-wrap">
                         <!-- <i class="ic_android sprite"></i> -->
-                        <img src="assets/images/icons/ai-brain.png" alt="">
-                        <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 50"><defs><style>.cls-1{fill:none;stroke:#3c7eba;stroke-miterlimit:10;stroke-width:1.8px;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-android{fill:#3c7eba;}</style></defs><title>android</title><path class="cls-1" d="M30.13,18.56H40.51c.49,0,.5,0,.5.5,0,5.73,0,11.46,0,17.18a1.94,1.94,0,0,1-1.93,2H37.35c-.37,0-.39,0-.39.4,0,1.49,0,3,0,4.44a6.63,6.63,0,0,1-.06,1,2.44,2.44,0,0,1-2.62,2,2.42,2.42,0,0,1-2.19-2.41v-5c0-.43,0-.45-.47-.45h-3c-.41,0-.44,0-.44.43v5a2.42,2.42,0,0,1-4.78.55,4.13,4.13,0,0,1-.09-.93c0-1.56,0-3.1,0-4.66,0-.38,0-.4-.39-.4H21.23a1.93,1.93,0,0,1-2-2V19c0-.4,0-.44.44-.44Z"/><path class="cls-1" d="M30.08,14.93H19.67c-.47,0-.51,0-.43-.52A9.29,9.29,0,0,1,23.7,8c.29-.18.59-.34.89-.5s.31-.2.13-.47L23.11,4.68a1.2,1.2,0,0,1-.23-.41.36.36,0,0,1,.1-.33.36.36,0,0,1,.35,0,1.64,1.64,0,0,1,.33.4c.56.8,1.11,1.59,1.65,2.4a.42.42,0,0,0,.57.19,12.44,12.44,0,0,1,8.17-.08l.2.07c.37.12.38.12.6-.2l1.73-2.51c.06-.09.12-.21.22-.25a.49.49,0,0,1,.39,0,.46.46,0,0,1,.08.36.93.93,0,0,1-.18.32L35.45,7c-.21.28-.2.32.12.48a10.34,10.34,0,0,1,4,3.41,8.67,8.67,0,0,1,1.41,3.59c.06.37,0,.44-.4.44Z"/><path class="cls-android" d="M34.82,10.26a1.2,1.2,0,0,0-1.22,1.21,1.24,1.24,0,0,0,2.47,0A1.21,1.21,0,0,0,34.82,10.26Z"/><path class="cls-android" d="M25.46,10.26a1.2,1.2,0,0,0-1.22,1.2,1.23,1.23,0,0,0,2.46,0A1.2,1.2,0,0,0,25.46,10.26Z"/><path class="cls-1" d="M11,25.77V21a2.43,2.43,0,0,1,4.82-.48,4.77,4.77,0,0,1,.06.76c0,3.07,0,6.15,0,9.22a2.48,2.48,0,0,1-1.09,2.21,2.25,2.25,0,0,1-2.51.13A2.31,2.31,0,0,1,11,30.71C11,29.06,11,27.42,11,25.77Z"/><path class="cls-1" d="M49,25.81c0,1.62,0,3.24,0,4.86a2.44,2.44,0,0,1-2.36,2.47,2.41,2.41,0,0,1-2.45-2,3.05,3.05,0,0,1-.06-.6V21.11a2.53,2.53,0,0,1,1-2.18,2.25,2.25,0,0,1,2.48-.19A2.32,2.32,0,0,1,49,20.87C49,22.52,49,24.17,49,25.81Z"/></svg> -->
-                     
+                        <!-- <img src="assets/images/icons/android.svg" alt=""> -->
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 50"><defs><style>.cls-1{fill:none;stroke:#3c7eba;stroke-miterlimit:10;stroke-width:1.8px;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-android{fill:#3c7eba;}</style></defs><title>android</title><path class="cls-1" d="M30.13,18.56H40.51c.49,0,.5,0,.5.5,0,5.73,0,11.46,0,17.18a1.94,1.94,0,0,1-1.93,2H37.35c-.37,0-.39,0-.39.4,0,1.49,0,3,0,4.44a6.63,6.63,0,0,1-.06,1,2.44,2.44,0,0,1-2.62,2,2.42,2.42,0,0,1-2.19-2.41v-5c0-.43,0-.45-.47-.45h-3c-.41,0-.44,0-.44.43v5a2.42,2.42,0,0,1-4.78.55,4.13,4.13,0,0,1-.09-.93c0-1.56,0-3.1,0-4.66,0-.38,0-.4-.39-.4H21.23a1.93,1.93,0,0,1-2-2V19c0-.4,0-.44.44-.44Z"/><path class="cls-1" d="M30.08,14.93H19.67c-.47,0-.51,0-.43-.52A9.29,9.29,0,0,1,23.7,8c.29-.18.59-.34.89-.5s.31-.2.13-.47L23.11,4.68a1.2,1.2,0,0,1-.23-.41.36.36,0,0,1,.1-.33.36.36,0,0,1,.35,0,1.64,1.64,0,0,1,.33.4c.56.8,1.11,1.59,1.65,2.4a.42.42,0,0,0,.57.19,12.44,12.44,0,0,1,8.17-.08l.2.07c.37.12.38.12.6-.2l1.73-2.51c.06-.09.12-.21.22-.25a.49.49,0,0,1,.39,0,.46.46,0,0,1,.08.36.93.93,0,0,1-.18.32L35.45,7c-.21.28-.2.32.12.48a10.34,10.34,0,0,1,4,3.41,8.67,8.67,0,0,1,1.41,3.59c.06.37,0,.44-.4.44Z"/><path class="cls-android" d="M34.82,10.26a1.2,1.2,0,0,0-1.22,1.21,1.24,1.24,0,0,0,2.47,0A1.21,1.21,0,0,0,34.82,10.26Z"/><path class="cls-android" d="M25.46,10.26a1.2,1.2,0,0,0-1.22,1.2,1.23,1.23,0,0,0,2.46,0A1.2,1.2,0,0,0,25.46,10.26Z"/><path class="cls-1" d="M11,25.77V21a2.43,2.43,0,0,1,4.82-.48,4.77,4.77,0,0,1,.06.76c0,3.07,0,6.15,0,9.22a2.48,2.48,0,0,1-1.09,2.21,2.25,2.25,0,0,1-2.51.13A2.31,2.31,0,0,1,11,30.71C11,29.06,11,27.42,11,25.77Z"/><path class="cls-1" d="M49,25.81c0,1.62,0,3.24,0,4.86a2.44,2.44,0,0,1-2.36,2.47,2.41,2.41,0,0,1-2.45-2,3.05,3.05,0,0,1-.06-.6V21.11a2.53,2.53,0,0,1,1-2.18,2.25,2.25,0,0,1,2.48-.19A2.32,2.32,0,0,1,49,20.87C49,22.52,49,24.17,49,25.81Z"/></svg>
                      </span>
-                     <h3 class="sub-ternary-heading d-black-color">AI & ML Development</h3>
+                     <h3 class="sub-ternary-heading d-black-color">Wearable Development</h3>
                   </div>
                   <div class="text-wrap">
-                     <p> Leveraging the power of Artificial Intelligence and Machine Learning, we build intelligent systems that analyze data, automate processes, and deliver predictive insights, driving innovation and efficiency for businesses.
+                     <p> With the emerging and futuristic technology, We are into the service of Wearable Device
+                        App Development too. We transform your existing app into wearable device compatible one as
+                        per the business requirement.
                      </p>
                   </div>
                </div>
@@ -398,7 +423,9 @@
                      <h3 class="sub-ternary-heading d-black-color">Testing & QA</h3>
                   </div>
                   <div class="text-wrap">
-                     <p>Our dedicated Quality Analysts ensure error-free and robust products through advanced testing techniques, enhancing software, apps, and websites during every stage of development
+                     <p>Helping businesses build a service or product through advanced testing methods in order to
+                        efface errors. Our well-grounded Quality Analysts work parallel during
+                        software/app/website development on improving the product.
                      </p>
                   </div>
                </div>
@@ -432,7 +459,8 @@
       <div class="head-wrap text-center">
          <h2 class="d-black-color secondary-heading text-capitalize ">Our Process</h2>
          <p class="sub-heading l-black-color">
-            At Vertexs, we take the time to deeply understand our customers' needs and requirements. We then craft tailored plans to effectively execute these objectives, ensuring every detail is aligned with the client's vision and goals for a seamless experience.
+            Skycap carefully understand the needs and requirements of the customers and then personalize plans to
+            execute it
          </p>
       </div>
    </div>
@@ -554,25 +582,26 @@
                <div class="reveal-block right" data-aos="reveal-right"></div>
                   <div class="img-wrapper list-content">
                   <picture>
-                     <source type="image/webp" data-srcset="assets/images/food.png" />
-                     <source type="image/jpg" data-srcset="assets/images/food.png" />
-                     <img data-src="assets/images/food.png" class="h-auto lazyload" width="640" height="360" alt="Fuel-price">
+                     <source type="image/webp" data-srcset="https://www.skycap.co.in/assets/images/project-list/Fuel_Price.webp" />
+                     <source type="image/jpg" data-srcset="https://www.skycap.co.in/assets/images/project-list/Fuel_Price.jpg" />
+                     <img data-src="https://www.skycap.co.in/assets/images/project-list/Fuel_Price.png" class="h-auto lazyload" width="640" height="360" alt="Fuel-price">
                   </picture>
                   </div>
                </div>
                <div class="right-half progress-circle-wrap" id="progress-circle-main">
                   <div class="content-wrapper list-content pd-left">
-                     <h2 class="d-black-color ternary-heading text-capitalize">Foodia</h2>
+                     <h2 class="d-black-color ternary-heading text-capitalize">Fuel Price</h2>
                      <p class="l-black-color">
-                        This project seems to relate to food services or culinary experiences. It might involve an app for ordering food from restaurants, managing personalized diet plans, or discovering and organizing recipes for users.
+                        A dedicated app to present the constant fuel price changes in India. It covers all the major fuel brands in every city like - Indian Oil, HP, BP, Essar, Reliance and Shell.
+                        This is the first and only app in this category that provides a comparison of prices among cities
                      </p>
                      <div class="circles">
                         <div class="progress-circle circle">
-                           <strong class="d-black-color progress-text">402K+</strong>
+                           <strong class="d-black-color progress-text">422K+</strong>
                            <span class="d-black-color progress-text">Total Install</span>
                         </div>
                         <div class="progress-circle circle">
-                           <strong class="d-black-color progress-text">11K+</strong>
+                           <strong class="d-black-color progress-text">10K+</strong>
                            <span class="d-black-color progress-text">Daily Active Users</span>
                         </div>
                         <div class="progress-circle circle">
@@ -582,24 +611,24 @@
                      </div>
                      <div class="share-bn">
                         <span>
-                           <!-- <a target="_blank" href="https://apple.co/2C7j06G" class="appstore__ico_sprite store-btn" rel="noopener"> -->
+                           <a target="_blank" href="https://apple.co/2C7j06G" class="appstore__ico_sprite store-btn" rel="noopener">
                               <!-- <i class="App_store_icon sprite"></i> -->
                               <!-- <img src="assets/images/icons/App_store_icon.png" alt="appstore_icon.png"> -->
-                              <!-- <span class="sr-only">Skycap fuelprice appstore</span> -->
+                              <span class="sr-only">Skycap fuelprice appstore</span>
                            </a>
                         </span>
                         <span>
-                           <!-- <a target="_blank" href="http://bit.ly/2EfgFsb" class="playstore__ico_sprite store-btn" rel="noopener"> -->
+                           <a target="_blank" href="http://bit.ly/2EfgFsb" class="playstore__ico_sprite store-btn" rel="noopener">
                               <!-- <i class="Play_store_icon sprite"></i> -->
                               <!-- <img src="assets/images/icons/Play_store_icon.png" alt="playstore_icon.png"> -->
-                              <!-- <span class="sr-only">Skycap fuelprice playstore</span> -->
+                              <span class="sr-only">Skycap fuelprice playstore</span>
                            </a>
                         </span>
                         <span>
-                           <!-- <a target="_blank" href="https://fuelpriceinindia.com/" class="webstore__ico_sprite store-btn" rel="noopener"> -->
+                           <a target="_blank" href="https://fuelpriceinindia.com/" class="webstore__ico_sprite store-btn" rel="noopener">
                               <!-- <i class="Web_icon sprite"></i> -->
                               <!-- <img src="assets/images/icons/Web_icon.png" alt="appstore_icon.png"> -->
-                              <!-- <span class="sr-only">Skycap fuelprice website</span> -->
+                              <span class="sr-only">Skycap fuelprice website</span>
                            </a>
                         </span>
                      </div>
@@ -615,23 +644,25 @@
             <div class="image-content-list">
                <div class="left-half">
                   <div class="content-wrapper list-content pd-right">
-                     <h2 class="d-black-color ternary-heading text-capitalize">Dr.Helper</h2>
+                     <h2 class="d-black-color ternary-heading text-capitalize">Certa</h2>
                      <p class="l-black-color">
-                        This project likely focuses on healthcare, providing a platform for telemedicine. It could include features such as doctor-patient consultations, prescription management, or health monitoring tools to enhance accessibility and convenience
+                        Certa is a software platform that empowers administrators and HR to automate compliance.
+                        An easy to use web and mobile app which helps in managing licenses,
+                        certifications and continuing education in one place
                      </p>
                      <div class="share-bn">
                         <span>
-                           <!-- <a target="_blank" href="https://apple.co/2wF7b7Y" class="appstore__ico_sprite store-btn" rel="noopener"> -->
+                           <a target="_blank" href="https://apple.co/2wF7b7Y" class="appstore__ico_sprite store-btn" rel="noopener">
                               <!-- <i class="App_store_icon sprite"></i> -->
                               <!-- <img src="assets/images/icons/App_store_icon.png" alt="appstore_icon.png"> -->
-                              <!-- <span class="sr-only">Skycap fuelprice appstore</span> -->
+                              <span class="sr-only">Skycap fuelprice appstore</span>
                            </a>
                         </span>
                         <span>
-                           <!-- <a target="_blank" href="https://bit.ly/2HecEYu" class="playstore__ico_sprite store-btn" rel="noopener"> -->
+                           <a target="_blank" href="https://bit.ly/2HecEYu" class="playstore__ico_sprite store-btn" rel="noopener">
                               <!-- <i class="playstore_icon sprite"></i> -->
                               <!-- <img src="assets/images/icons/Play_store_icon.png" alt="playstore_icon.png"> -->
-                              <!-- <span class="sr-only">Skycap fuelprice playstore</span> -->
+                              <span class="sr-only">Skycap fuelprice playstore</span>
                            </a>
                         </span>
                      </div>
@@ -646,9 +677,9 @@
                   <div class="reveal-block left" data-aos="reveal-left"></div>
                   <div class="img-wrapper list-content">
                      <picture>
-                        <source type="image/webp" data-srcset="assets/images/doc.png" />
-                        <source type="image/jpg" data-srcset="assets/images/doc.png" />
-                        <img data-src="assets/images/doc.png" class="h-auto lazyload" width="640" height="360" alt="certa">
+                        <source type="image/webp" data-srcset="https://www.skycap.co.in/assets/images/project-list/Certa.webp" />
+                        <source type="image/jpg" data-srcset="https://www.skycap.co.in/assets/images/project-list/Certa.jpg" />
+                        <img data-src="https://www.skycap.co.in/assets/images/project-list/Certa.png" class="h-auto lazyload" width="640" height="360" alt="certa">
                      </picture>
                   </div>
                </div>
@@ -659,17 +690,19 @@
                   <div class="reveal-block right" data-aos="reveal-right"></div>
                   <div class="img-wrapper list-content">
                      <picture>
-                        <source type="image/webp" data-srcset="assets/images/tracker.png" />
-                        <source type="image/jpg" data-srcset="assets/images/tracker.png" />
-                        <img data-src="assets/images/tracker.png" class="h-auto lazyload" width="640" height="360" alt="NFTW">
+                        <source type="image/webp" data-srcset="https://www.skycap.co.in/assets/images/project-list/NFTW.webp" />
+                        <source type="image/jpg" data-srcset="https://www.skycap.co.in/assets/images/project-list/NFTW.jpg" />
+                        <img data-src="https://www.skycap.co.in/assets/images/project-list/NFTW.png" class="h-auto lazyload" width="640" height="360" alt="NFTW">
                      </picture>
                   </div>
                </div>
                <div class="right-half">
                   <div class="content-wrapper list-content pd-left">
-                     <h2 class="d-black-color ternary-heading text-capitalize">Time Traker</h2>
+                     <h2 class="d-black-color ternary-heading text-capitalize">NFTW</h2>
                      <p class="l-black-color">
-                        This project appears to be centered around time management or project coordination. It could help businesses or individuals effectively track work hours, monitor productivity, and manage tasks seamlessly.
+                        A dynamic user-driven website that provides customized analytics, global highlights,
+                        and the spotlight for all your global basketball needs.
+                        It provides worldwide game/player video highlights and access to expert analytics
                      </p>
                      <div class="share-bn">
                         <!-- <span><a href="">
@@ -682,7 +715,7 @@
                            <a target="_blank" href="https://numbersforthewin.com/" class="webstore__ico_sprite store-btn" rel="noopener">
                               <!-- <i class="Web_icon sprite"></i> -->
                               <!-- <img src="assets/images/icons/Web_icon.png" alt="appstore_icon.png"> -->
-                              <!-- <span class="sr-only">Skycap fuelprice website</span> -->
+                              <span class="sr-only">Skycap fuelprice website</span>
                            </a>
                         </span>
                      </div>
@@ -711,7 +744,7 @@
          <div class="row">
             <div class="col-12">
                <div class="head-wrap text-center">
-                  <h2 id="counter" class="wh-text secondary-heading text-capitalize">We delivered over <span id="" class="wh-text counter-value" data-count="150">
+                  <h2 id="counter" class="wh-text secondary-heading text-capitalize">We delivered over <span id="" class="wh-text counter-value" data-count="200">
                      0
                      </span>+ projects successfully
                   </h2>
@@ -719,7 +752,7 @@
                   <!-- <a href="#" target="_blank" class="btn custom-btn mt-10">
                      View Portfolio
                      </a> -->
-                  <!-- <div class="view-portfolio-wrap">
+                  <div class="view-portfolio-wrap">
                      <div class="button-animation-wrap  wow-btngrad viewproject-btn">
                         <a href="portfolio.html" class="btn btn-animation">
                            <span class="btn-text">
@@ -727,14 +760,14 @@
                            <i class="button_icon sprite"></i>
                         </a>
                      </div>
-                  </div> -->
+                  </div>
                </div>
             </div>
          </div>
       </div>
    </div>
    <!-- appreciation we received -->
-   <!-- <div class="sections section-wrap appreceations">
+   <div class="sections section-wrap appreceations">
       <div class="container">
          <div class="row">
             <div class="col-12">
@@ -755,7 +788,7 @@
                </div>
             </div>
          </div>
-      </div> -->
+      </div>
       <!-- <div class="animation-wrap curve-1 left-curve">
          <div><img src="assets/images/icons/gradient-curve-animation-left.png" alt="" class="anime-scaele"></div> -->
 </section>
@@ -789,7 +822,7 @@
                     <div class="col-md-4 pl-md-0">
                     <div class="googlemap-outer">
                         <div class="google-map">
-                            <iframe title="Vertexsinfotech Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.242169132004!2d76.69006366530319!3d30.711591693701866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefaabda6c805%3A0xccbbb805ec3fac2c!2sSkycap!5e0!3m2!1sen!2sin!4v1566477765991!5m2!1sen!2sin" width="100%" height="165" frameborder="0" style="border:0"></iframe>
+                            <iframe title="Skycap Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.242169132004!2d76.69006366530319!3d30.711591693701866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefaabda6c805%3A0xccbbb805ec3fac2c!2sSkycap!5e0!3m2!1sen!2sin!4v1566477765991!5m2!1sen!2sin" width="100%" height="165" frameborder="0" style="border:0"></iframe>
                         </div>
                     </div>
                     </div>
@@ -868,7 +901,7 @@
             </div>
          </div>
       </form> -->
-      <!-- <div class="contact__hubspot__form">
+      <div class="contact__hubspot__form">
       <script charset="utf-8" type="text/javascript" src="../js.hsforms.net/forms/shell.js"></script>
       <script>
       hbspt.forms.create({
@@ -877,7 +910,7 @@
          formId: "d3811bcf-8dcf-4b1f-a3e7-aeb98b1e0c91"
       });
       </script>
-      </div> -->
+      </div>
    </div>
 </div>
                         <div class="newcontact-detailsinfo">
@@ -889,22 +922,18 @@
                                         <span class="svg-fa-loc">
                                             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{opacity:1;fill:url(#linear-gradient);}.cls-4{fill:#1365b7;}</style><clipPath id="clip-path"><rect class="cls-1" x="-16.09" y="100.07" width="103.65" height="336.48" transform="translate(71.47 536.61) rotate(-180)"/></clipPath><linearGradient id="linear-gradient" x1="-51.92" y1="157.97" x2="89.65" y2="24.98" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#013b8a"/><stop offset="1" stop-color="#17baf1"/></linearGradient></defs><title>location</title><g class="cls-2"><path class="cls-3" d="M-357.21,321.05l251.13,145a23.42,23.42,0,0,0,32-8.57l145-251.13a23.42,23.42,0,0,0-8.57-32l-251.13-145a23.41,23.41,0,0,0-32,8.56l-145,251.13A23.42,23.42,0,0,0-357.21,321.05Z"/></g><path class="cls-4" d="M14.78,1.76a9.84,9.84,0,0,1,10.1,9.5,9.62,9.62,0,0,1-1.79,5.92L15.93,27.43c-.75,1.07-1.14,1.08-1.88,0-2.4-3.44-4.82-6.87-7.2-10.34A9.85,9.85,0,0,1,13.14,1.86,11.19,11.19,0,0,1,14.78,1.76ZM15,15.65a4.49,4.49,0,0,0,4.46-4.37,4.43,4.43,0,1,0-8.86-.06A4.51,4.51,0,0,0,15,15.65Z"/></svg>
                                         </span> 
-                                        123, Tech Park Avenue,
-                                        Phase 2, Hinjewadi IT Park,
-                                        Pune, Maharashtra, 411057
-                                        India 
-                                        
+                                        E-195, Industrial Area, Phase 8-B, Mohali (Punjab)
                                     </p>
                                 </div>
                                 <div class="col-sm-6 col-xl-4">
                                     <label class="newcontact-detailsinfo--label">Contact</label>
                                     <address class="footer-address">
                                         <span class="d-flex justify-content-center"><i class="fa fa-phone" aria-hidden="true"></i>
-                                        <a class="l-black-color flex-fill" href="tel:+91-7009269796"> +91- 7620931826</a>
+                                        <a class="l-black-color flex-fill" href="tel:+91-7009269796"> +91-7009269796</a>
                                         </span>
                                         <span class="d-flex justify-content-center">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        <a class="l-black-color flex-fill" href="mailto:contact@skycap.co.in"> Vertexsinfotech@gmail.com </a>
+                                        <a class="l-black-color flex-fill" href="mailto:contact@skycap.co.in"> contact@skycap.co.in</a>
                                         </span>
                                     </address>
                                 </div>
@@ -917,7 +946,7 @@
                                             </span>
                                             <span class="d-flex justify-content-center">
                                             <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                                            <a class="l-black-color flex-fill" href="https://wa.me/919975677685?text=Hello%20Team%20Skycap,%20trying%20to%20reach%20you">WhatsApp</a>
+                                            <a class="l-black-color flex-fill" href="https://wa.me/917696486107?text=Hello%20Team%20Skycap,%20trying%20to%20reach%20you">WhatsApp</a>
                                             </span>
                                     </address>
                                 </div>
@@ -966,7 +995,7 @@
  
  <footer>
   <div class="footer-bottom text-center">
-          <p>All rights reserved © 2015-2025 Vertexsinfotech <span class="privacy-policy"><a href="index.html">Privacy Policy</a>
+          <p>All rights reserved © 2015-2025 Skycap <span class="privacy-policy"><a href="privacy-policy/index.html">Privacy Policy</a>
                                 </span>
           </p>
         </div>
@@ -1054,7 +1083,7 @@
             },100);
         });
     </script>
-    <script nitro-exclude>if (document.cookie.indexOf('nitroCache=HIT') == -1) {var nitroData = new FormData(); nitroData.append('nitroBeaconUrl', 'aHR0cHM6Ly93d3cuc2t5Y2FwLmNvLmluLw=='); nitroData.append('nitroBeaconCookies', 'W10='); nitroData.append('nitroBeaconHash', 'dbd498128b2519a152e8dbfe1f872124725603cfca9dd951af17d6f5b3bb11049f560cb274414a8f8af69184dcdeb380903fb5e0bc5aca196ebfca3d38dd0fc5'); navigator.sendBeacon(location.href, nitroData);} document.cookie = 'nitroCache=HIT; expires=Thu, 01 Jan 1970 00:00:01 GMT;';</script></body>
+    <script nitro-exclude>if (document.cookie.indexOf('nitroCache=HIT') == -1) {var nitroData = new FormData(); nitroData.append('nitroBeaconUrl', 'aHR0cHM6Ly93d3cuc2t5Y2FwLmNvLmluL2luZGV4LnBocA=='); nitroData.append('nitroBeaconCookies', 'W10='); nitroData.append('nitroBeaconHash', '8fab56c6027dfccef122cefa0bc2a2f628e123c8b7359ccbee8eb3882f2185a138a19208a67e5185924820c28af96d8c7928c7fe32dad9898a3eab8543f7e4dc'); navigator.sendBeacon(location.href, nitroData);} document.cookie = 'nitroCache=HIT; expires=Thu, 01 Jan 1970 00:00:01 GMT;';</script></body>
 
-<!-- Mirrored from www.skycap.co.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jan 2025 08:13:09 GMT -->
+<!-- Mirrored from www.skycap.co.in/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jan 2025 08:13:20 GMT -->
 </html>

@@ -1,0 +1,118 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1920 366">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: url(#linear-gradient);
+            }
+
+            .cls-2 {
+                opacity: 0.8;
+                fill: url(#linear-gradient-2);
+            }
+
+            .cls-3 {
+                fill: url(#linear-gradient-3);
+            }
+
+            .wave2 {
+                -webkit-animation: mover2 3s infinite alternate;
+                animation: mover 3s infinite alternate;
+            }
+
+            .wave3 {
+                -webkit-animation: mover3 4s infinite alternate;
+                animation: mover 4s infinite alternate;
+            }
+
+            @-webkit-keyframes mover {
+                0% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+
+                to {
+                    -webkit-transform: translateY(-10px);
+                    transform: translateY(-10px);
+                }
+            }
+
+            @keyframes mover {
+                0% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+
+                to {
+                    -webkit-transform: translateY(-10px);
+                    transform: translateY(-10px);
+                }
+            }
+
+            @-webkit-keyframes mover2 {
+                0% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+
+                to {
+                    -webkit-transform: translateY(-6px);
+                    transform: translateY(-6px);
+                }
+            }
+
+            @keyframes mover2 {
+                0% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+
+                50% {
+                    -webkit-transform: translateY(-6px);
+                    transform: translateY(-6px);
+                }
+            }
+
+            @-webkit-keyframes mover3 {
+                0% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+
+                to {
+                    -webkit-transform: translateY(-8px);
+                    transform: translateY(-8px);
+                }
+            }
+
+            @keyframes mover3 {
+                0% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+
+                50% {
+                    -webkit-transform: translateY(-8px);
+                    transform: translateY(-8px);
+                }
+            }
+        </style>
+        <linearGradient id="linear-gradient" x1="960" y1="366.13" x2="960" y2="40.86" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" stop-opacity="0" />
+            <stop offset="0.09" stop-color="#fcfdfe" stop-opacity="0.05" />
+            <stop offset="0.26" stop-color="#f5f8fb" stop-opacity="0.18" />
+            <stop offset="0.48" stop-color="#e8f0f7" stop-opacity="0.39" />
+            <stop offset="0.74" stop-color="#d7e5f1" stop-opacity="0.68" />
+            <stop offset="1" stop-color="#c5d9ea" />
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" y1="366.13" y2="30.02" xlink:href="#linear-gradient" />
+        <linearGradient id="linear-gradient-3" y1="334.81" y2="64.77" xlink:href="#linear-gradient" />
+    </defs>
+    <title>Curve animation</title>
+    <path class="cls-1 wave1"
+        d="M0,40.86S289.87,75.59,508.41,81.72s418.09-8.18,574.18-20.43,461.74-32.5,837.41,54.87v250H0Z" />
+    <path class="cls-2 wave2"
+        d="M0,63.33S85.73,40.86,170.32,41.75c47.82.51,361.23-40.8,759.59,28.67,0,0,189.65,42.12,487.64,15.89C1796.19,53,1920,54.25,1920,54.25V366.13H0Z" />
+    <path class="cls-3 wave3"
+        d="M0,131.78S320.39,96,580.14,103.17s499.42,21.12,690.81,41.88c197.46,21.43,527,10.22,649.05-49v270H0Z" />
+</svg>
