@@ -135,7 +135,7 @@
         <!-- Form -->
 <div id="scrollbarRun" data-simplebar class="form-wrap scroll-bar-wrap-head">
    <div class="contact-wrap scroll-box-head">
-     <form method="POST" action="https://script.google.com/macros/s/AKfycbzVwelJ9YWIZU352o7vV8wVegvneX-P8r0u3XSSbbDlMj-nvMLK-yK_qVTop9dvx4Cu/exec" enctype="multipart/form-data" class="custom-form card contact-form" id="quoteform">
+     <form method="POST" action="https://script.google.com/macros/s/AKfycbxeSiyTjNqN1U4yiGKm7zH9w9crpiL3LZ8JqwZpE6iDcOsmpkWySzlp6xnVfBcqOY_Y/exec" enctype="multipart/form-data" class="custom-form card contact-form" id="quoteform">
        <!-- Form fields go here -->
        <div class="row">
          <div class="col-sm-6">
@@ -181,7 +181,7 @@
      // Dropdown toggle (manually)
      $('#dropdownMenuButton').click(function () {
        console.log("Dropdown button clicked"); // Check if this is printing in console
-       $('.dropdown-menu').toggle(); // Toggle the dropdown menu
+       $('.dropdown-menu').toggleClass('show');  // Toggle the dropdown menu
      });
  
      // Close dropdown after form submission
@@ -810,6 +810,100 @@
                     <div class="col-md-8">
                         <div class="form-wrap pd-r-30 boxshadow---outer">
    <div class="contact-wrap">
+
+      <form method="POST" enctype="multipart/form-data" class="custom-form card pd-25 contact-form" id="contactform" action="https://script.google.com/macros/s/AKfycbxeSiyTjNqN1U4yiGKm7zH9w9crpiL3LZ8JqwZpE6iDcOsmpkWySzlp6xnVfBcqOY_Y/exec">
+         <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+         <div class="row">
+           <div class="col-sm-6">
+             <div class="input-block">
+               <label class="full-name-label" for="fName">Full Name</label>
+               <input id="fName" name="name" class="form-control" type="text" autocomplete="off">
+               <input name="firstname" type="hidden">
+             </div>
+           </div>
+           <div class="col-sm-6">
+             <div class="input-block">
+               <label for="eMail">Email</label>
+               <input id="eMail" name="email" class="form-control" type="text" autocomplete="off">
+             </div>
+           </div>
+       
+           <div class="col-sm-6 country_form ">
+             <div class="input-block select_country select_country_form">
+               <select class="country-codes form-control select" name="country" id="country">
+                 <option value=""> Country</option>
+               </select>
+             </div>
+             <div class="input-block contry-code-field code-form">
+               <label for="c_code"></label>
+               <input name="c_code" id="c_code" class="form-control" type="hidden">
+               <input name="code" id="code" class="form-control" type="tel" disabled="disabled">
+             </div>
+           </div>
+           <div class="col-sm-6">
+             <div class="input-block">
+               <label class="label-phone-mask" for="ph">Phone Number</label>
+               <input name="phone" id="ph" class="form-control phone-mask" type="tel" autocomplete="off" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;" data-mask="" im-insert="true">
+             </div>
+           </div>
+           <div class="col-sm-12">
+             <div class="input-block textarea err-txtarea-label">
+               <label for="txtArea">Project Description</label>
+               <textarea id="txtArea" name="message" rows="3" type="text" class="form-control"></textarea>
+             </div>
+           </div>
+           <!-- <div class="col-sm-4">
+             <div class="input-blockx">
+               <div class="d-flex">
+                 <img id="captcha_code_img" alt="captcha-code" class="h-auto" width="70" height="30" src="https://www.skycap.co.in/backend/api/captcha/generate/contact" />
+                 <span class="p-2 cursor-pointer" onclick="refreshCaptcha('captcha_code_img', 'https://www.skycap.co.in/backend/api/captcha/generate/contact')"><i class="fa fa-refresh" aria-hidden="true"></i></span>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-8">
+             <div class="input-block">
+               <label for="capCode">Captcha Code</label>
+               <input id="capCode" name="captcha_code" type="text" class="form-control" autocomplete="off">
+             </div>
+           </div> -->
+           <div class="col-sm-12 text-center">
+             <div class="choose-button-wrap">
+               <!-- <span class="input-file-container ">
+                 <input class="input-file" name="attach" id="my-file" type="file">
+                 <label tabindex="0" for="my-file" class="input-file-trigger">Choose File</label>
+               </span> -->
+               <button type="submit" class="btn btn-warning custom-btn">Send</button>
+             </div>
+             <p id="contact-file-message" class=""></p>
+           </div>
+         </div>
+       </form>
+       <script>
+         $(document).ready(function () {
+           // Dropdown toggle (manually)
+           $('#dropdownMenuButton').click(function () {
+             console.log("Dropdown button clicked"); // Check if this is printing in console
+             $('.dropdown-menu').toggle(); // Toggle the dropdown menu
+           });
+       
+           // Close dropdown after form submission
+           $('#contactform').on('submit', function (e) {
+             // Remove e.preventDefault to allow form submission
+             console.log("Form submitted"); // Check if this prints when form is submitted
+       
+             // Simulate form submission by allowing the form to submit normally
+             setTimeout(function () {
+               $('.dropdown-menu').hide(); // Close the dropdown after submission
+               alert("Form data submitted successfully!");
+               // Actually submit the form
+               e.target.submit(); // This will submit the form to the Google Apps Script endpoint
+             }, 500); // Delay to simulate form submission process
+           });
+         });
+       </script>
+       
+
+
       <!-- <form method="post" enctype="multipart/form-data" class="custom-form card pd-25 contact-form" id="contactform">
          <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
          <div class="row">
